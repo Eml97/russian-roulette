@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Russian Roulette Game</title>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Oswald', sans-serif;
+      background: white;
+      color: #111;
+      line-height: 1.6;
+    }
+
+    /* Sekcja 1 - Obraz tytułowy */
+    .hero {
+      width: 100%;
+    }
+    .hero img {
+      width: 100%;
+      display: block;
+    }
+
+    /* Sekcja 2 - Screeny */
+    .screens {
+      background: #070707;
+      padding: 40px 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .screens img {
+      width: 240px;
+      height: 427px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    /* Sekcja 3 - Opis */
+    .description {
+      padding: 60px 20px;
+      text-align: center;
+      max-width: 800px;
+      margin: auto;
+    }
+    .description h1 {
+      color: #3C101E;
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+    .description p {
+      font-size: 1.1rem;
+      margin-bottom: 10px;
+    }
+    .description .creator {
+      margin-top: 30px;
+      font-weight: bold;
+    }
+
+    /* Sekcja 4 - Stopka */
+    .footer {
+      background: #E9E9E9;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .footer h2 {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+    }
+    .footer img {
+      width: 160px;
+      margin-bottom: 20px;
+    }
+    .footer a {
+      display: inline-block;
+      margin: 0 10px;
+      color: #3C101E;
+      text-decoration: none;
+      font-size: 0.95rem;
+    }
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      .screens img {
+        width: 150px;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Sekcja 1 -->
+  <div class="hero">
+    <img src="https://raw.githubusercontent.com/Eml97/russian-roulette/refs/heads/main/Website-Hero-Image.jpg" alt="Russian Roulette Hero Image" />
+  </div>
+
+  <!-- Sekcja 2 -->
+  <div class="screens">
+    <img src="https://raw.githubusercontent.com/Eml97/russian-roulette/refs/heads/main/game_card_photo.jpg" alt="Screen 1" />
+    <img src="https://raw.githubusercontent.com/Eml97/russian-roulette/refs/heads/main/Main-menu-EN.jpg" alt="Screen 2" />
+    <img src="https://raw.githubusercontent.com/Eml97/russian-roulette/refs/heads/main/Spin-EN.jpg" alt="Screen 3" />
+    <img src="https://raw.githubusercontent.com/Eml97/russian-roulette/refs/heads/main/Kill-EN.jpg" alt="Screen 4" />
+    <img src="https://raw.githubusercontent.com/Eml97/russian-roulette/refs/heads/main/Miss-EN.jpg" alt="Screen 5" />
+  </div>
+
+  <!-- Sekcja 3 -->
+  <div class="description">
+    <h1>Russian Roulette Game</h1>
+    <p>This is simply a game of Russian roulette.<br>Minimalist and atmospheric – nothing more.</p>
+    <p><strong>The rules are simple:</strong><br>
+    🎯 Choose the number of bullets (1 to 5)<br>
+    🔫 Spin the cylinder<br>
+    😱 Pull the trigger...<br>
+    See if luck is on your side today.</p>
+    <p>This game doesn't promote violence — it’s purely symbolic and stylized.</p>
+    <p><strong>Why was it made?</strong><br>
+    I needed a simple yet moody app to spice up a card game of bluffing with friends.<br>
+    Now, every detected lie has serious consequences…<br>
+    But you can use this app however you want!</p>
+    <p class="creator">Created by: Emil Łukasiewicz</p>
+  </div>
+
+  <!-- Sekcja 4 -->
+  <div class="footer">
+    <h2>Download now:</h2>
+    <a href="https://play.google.com/store/apps/details?id=your.package.name">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Download on Google Play">
+    </a>
+    <br />
+    <a href="privacy_policy.html">Polityka Prywatności</a> |
+    <a href="app-ads.txt">app-ads.txt</a>
+  </div>
+
+</body>
+</html>
